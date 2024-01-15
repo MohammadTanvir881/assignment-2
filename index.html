@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/f58157aecf.js" crossorigin="anonymous"></script>
     <title>assignment-2</title>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo-section">
+                    <a class="logo" href="#"><img src="./Images/Group 40071 (2).png" alt=""></a>
+                    <h2>Travel <span class="title-color"> Asia</span></h2>
+                </div>
+                <button type="button" class="nav-toggle">
+                    <span></span>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="home">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="banner-section container">
+            <div class="banner-text">
+                <h1>Explore Your Travel</h1>
+                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac
+                    quis sapien urna eu phasellus.</p>
+            </div>
+            <div class="banner-form">
+                <label for="text">
+                    <input class="input" type="text" placeholder="Where go">
+                </label>
+                <select name="select" id="select" class="input">
+
+                    <option value="When"> When</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                </select>
+                <select name="select" id="select" class="input">
+
+                    <option value="Where"> Where</option>
+                    <option value="January">America</option>
+                    <option value="February">Finland</option>
+                    <option value="March">Japan</option>
+                    <option value="April">Canada</option>
+                </select>
+                <button class="shared-btn"><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Find Now</button>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- popolur tour section -->
+        <div class="popolur-tours container">
+            <div class="tour-text">
+                <h1>Our Popular Tours</h1>
+                <p>
+                    Embarking on a tour offers a captivating adventure, unveiling new landscapes and cultures. It is a
+                    dynamic exploration</p>
+                    <ul>
+                        <li>A well-guided tour allows travelers to immerse themselves in the rich history and cultural tapestry of a destination.</li>
+                        <li>Touring exotic locations introduces individuals to diverse cuisines, providing a gastronomic journey that tantalizes the taste buds.</li>
+                        <li>Adventure tours cater to thrill-seekers, offering adrenaline-pumping activities like zip-lining and rock climbing in breathtaking natural settings.</li>
+                    </ul>
+                    <p>
+                        Musical tours provide enthusiasts with the opportunity to attend live performances, festivals, and concerts, immersing themselves in the vibrant world of music across different genres and cultures.
+                    </p>
+                    <button class="shared-btn">Read More</button>
+            </div>
+            <div class="tour-img">
+                  <img src="./Images/Rectangle 4.png" alt="">
+            </div>
+        </div>
+
+        <!-- popolur tour section ends-->
+    </main>
+
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
