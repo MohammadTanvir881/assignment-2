@@ -561,6 +561,7 @@ footer {
 .footer-dis {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .footer-dis p {
@@ -597,6 +598,7 @@ footer {
 .copy-write {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .copy-write p {
@@ -870,6 +872,10 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
+    }
+
+    .footer-logo {
+        padding-top: 50px;
     }
 
 
