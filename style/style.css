@@ -435,7 +435,7 @@ header nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     margin-bottom: 25px;
-   
+
 }
 
 .visiting-place-text ul {
@@ -462,6 +462,149 @@ header nav ul li a:hover {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
+}
+
+.newsletter-section {
+    display: flex;
+    margin-top: 100px;
+    gap: 25px;
+    margin-bottom: 100px;
+
+}
+
+.newsleter-text {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px;
+}
+
+.newsleter-text h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
+.newsleter-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.newsleter-text input {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.news-button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.news {
+    margin-bottom: 25px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-img {
+    width: 60%;
+    position: relative;
+}
+
+.newsletter-img img {
+    width: 100%;
+}
+
+.lewsletter-img-text {
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+    bottom: 15%;
+    left: 57%;
+    transform: rotate(-30deg);
+}
+
+.lewsletter-img-text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.lewsletter-img-text h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+footer {
+    background: #FFF;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footer-dis {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-dis p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+
+.footer-hr {
+    /* padding-bottom: 15px; */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.copy-write {
+    display: flex;
+    justify-content: center;
+}
+
+.copy-write p {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 50px 0px;
+   
 }
 
 
@@ -667,26 +810,69 @@ header nav ul li a:hover {
         color: #131318;
         font-size: 30px;
         font-weight: 800;
-     }
+    }
 
     .visiting-place-text,
-.visiting-place-img {
-    width: 100%;
-    padding: 20px;
-}
+    .visiting-place-img {
+        width: 100%;
+        padding: 20px;
+    }
 
-.visiting-place-text {
-    padding: 25px;
-}
+    .visiting-place-text {
+        padding: 25px;
+    }
 
-.visiting-place-img-description {
-    position: absolute;
-    color: white;
-    bottom: 45%;
-    left: 24%;
-    font-size: 20px;
+    .visiting-place-img-description {
+        position: absolute;
+        color: white;
+        bottom: 45%;
+        left: 24%;
+        font-size: 20px;
 
-}
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .newsleter-text {
+        width: 95%;
+        margin: 0 auto;
+        padding: 30px;
+        position: relative;
+        /* margin: 20px; */
+
+    }
+
+    .news-button {
+        width: 100%;
+        margin-right: 10px;
+        position: relative;
+        left: -3%;
+    }
+
+    .newsletter-img {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .lewsletter-img-text p {
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .lewsletter-img-text h2 {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+
 
 
 
