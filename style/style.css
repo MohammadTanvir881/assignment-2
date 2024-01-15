@@ -408,6 +408,61 @@ header nav ul li a:hover {
     display: block;
 } */
 
+.visiting-place {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.visiting-place-text,
+.visiting-place-img {
+    width: 50%;
+}
+
+.visiting-place-text h1 {
+
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    /* 150% */
+
+}
+
+.visiting-place-text p {
+    color: #5A5A5D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+   
+}
+
+.visiting-place-text ul {
+    margin-left: 20px;
+}
+
+.visiting-place-text ul li {
+    margin-bottom: 25px;
+}
+
+.visiting-place-img {
+    position: relative;
+}
+
+.visiting-place-img img {
+    width: 100%;
+}
+
+.visiting-place-img-description {
+    position: absolute;
+    color: white;
+    bottom: 46%;
+    left: 26%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 
 
@@ -579,6 +634,7 @@ header nav ul li a:hover {
         max-width: 80%;
         margin-left: 18px;
     }
+
     .choose-section {
         margin-top: 60px;
     }
@@ -586,6 +642,7 @@ header nav ul li a:hover {
     .choose-text {
         padding: 20px;
     }
+
     .choose-text p {
         margin-bottom: 20px;
     }
@@ -595,10 +652,44 @@ header nav ul li a:hover {
         padding: 23px;
         row-gap: 30px;
     }
+
     #service-3 {
         position: relative;
         left: 0%;
     }
+
+    .visiting-place {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .visiting-place-text h1 {
+        color: #131318;
+        font-size: 30px;
+        font-weight: 800;
+     }
+
+    .visiting-place-text,
+.visiting-place-img {
+    width: 100%;
+    padding: 20px;
+}
+
+.visiting-place-text {
+    padding: 25px;
+}
+
+.visiting-place-img-description {
+    position: absolute;
+    color: white;
+    bottom: 45%;
+    left: 24%;
+    font-size: 20px;
+
+}
+
+
+
 
 
 
