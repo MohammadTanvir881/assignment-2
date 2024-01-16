@@ -353,6 +353,56 @@ header nav ul li a:hover {
     margin-bottom: 50px;
 }
 
+.discount-main-title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.discount-main-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.discount-main-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.discount {
+    background-image: linear-gradient(45deg, rgb(0 60 107), #00000059), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.watch-title {
+    padding: 90px 70px 20px 45px;
+    margin-top: 50px;
+}
+
+.watch-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.discount-title-color {
+    color: #FF5400;
+}
+
+.discount-btn {
+    margin-top: 20px;
+}
+
 .service-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -606,7 +656,7 @@ footer {
     font-size: 16px;
     font-weight: 300;
     padding: 50px 0px;
-   
+
 }
 
 
@@ -790,6 +840,24 @@ footer {
 
     .choose-text p {
         margin-bottom: 20px;
+    }
+
+    .discount {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .watch-title {
+        padding: 75px 27px 20px 21px;
+        /* margin-top: 42px; */
+    }
+
+    .watch-title h1 {
+        font-size: 30px;
+    }
+
+    .discount-btn {
+        margin-left: 0px;
     }
 
     .service-container {
