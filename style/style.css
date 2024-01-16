@@ -14,6 +14,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    padding: 30px;
     /* padding: 0px 20px; */
 }
 
@@ -132,7 +133,6 @@ header nav ul li a:hover {
     /* background-position: center; */
     /* height: 70vh; */
     height: 550px;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -141,7 +141,7 @@ header nav ul li a:hover {
     padding-top: 90px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .banner-text {
@@ -248,7 +248,7 @@ header nav ul li a:hover {
 
 /* destination section starts here */
 .destination-section {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .destination-title {
@@ -317,6 +317,8 @@ header nav ul li a:hover {
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+    /* display: block; */
+    /* margin: 0 auto; */
 }
 
 .destination-img p {
@@ -331,7 +333,7 @@ header nav ul li a:hover {
 }
 
 .choose-section {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .choose-text {
@@ -375,17 +377,17 @@ header nav ul li a:hover {
 }
 
 .discount {
-    background-image: linear-gradient(45deg, rgb(0 60 107), #00000059), url(../images/watch.png);
+    background-image: linear-gradient(45deg, rgb(0 60 107), #00000059), url(../Images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 15px;
     border-radius: 5px;
 }
 
 .watch-title {
-    padding: 90px 70px 20px 45px;
+    padding: 0px 70px 20px 30px;
     margin-top: 50px;
 }
 
@@ -526,7 +528,7 @@ header nav ul li a:hover {
     width: 40%;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding: 50px;
+    padding: 35px;
 }
 
 .newsleter-text h2 {
@@ -578,9 +580,9 @@ header nav ul li a:hover {
     position: absolute;
     border-radius: 16px;
     background: #FF5400;
-    padding: 20px;
+    padding: 14px;
     bottom: 15%;
-    left: 57%;
+    left: 58%;
     transform: rotate(-30deg);
 }
 
@@ -685,6 +687,10 @@ footer {
 
     .logo-section h2 {
         font-size: 25px;
+    }
+
+    .container {
+        padding: 0px;
     }
 
     header nav {
